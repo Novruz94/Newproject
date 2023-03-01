@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ms-auto a{
+    color: antiquewhite;
+}
+
+.footer {
+    width: 100%;
+    height: 160px;
+    background-color:black;
+}
+
+.text p{
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 65px;
+}
+
+/* Pages */
+.home1 {
+    width: 100%;
+    height: 600px;
+    background-color:seagreen;
+}
+
+.about1 {
+    width: 100%;
+    height: 570px;
+}
+
+.services1 {
+    width: 100%;
+    height: 750px;
+    
+}
+
+.portfolio1 {
+    width: 100%;
+    height: 600px;
+}
+
+.blog-page .container .row {
+    margin-left: 16px;
+}
+
+.team1 {
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+}
+
+.blog1 {
+    width: 100%;
+    height: 580px;
+}
+
+.action1{
+    width: 100%;
+    height: 500px;
+}
+
+.action2{
+    width: 100%;
+    height: 500px;
+}
+
+.action3{
+    width: 100%;
+    height: 500px;
+}
+
+.contact1 {
+    width: 100%;
+    height: 580px;
+    background-color: darkorange;
+   
+}
+
+/* Pages sonu */
+
+
+
+/*  Home baslangic */
+
+.row a {
+    width: 130px;
+    border: 1px solid seagreen;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    outline: none;
+    
+}
+
+.card-body {
+    background-color:seagreen;
+    height: 220px;
+}
+
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Home sonu*/
+
+/* About baslangic */
+
+.center-vertical {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.about-us-section {
+    width: 100%;
+    padding: calc(5% + 30px) 0px;
+}
+
+.about-us-section .img-head {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-section .img-head img{
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+    transition: transform .3s;
+}
+ 
+.about-us-section .img-head:hover img{
+    transform: scale(1.2);
+}
+
+.about-us-section .img-head::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, var(--
+    colorOne), var(--colorTwo));
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+}
+
+.about-us-section .text-head{
+    font-size: 20px;
+    color: white;
+}
+
+.about-us-section .break-small {
+    width: 80px;
+    height: 3px;
+    background-color: var(--colorTwo);
+}
+
+.about-us-section .text-para {
+    font-size: 16px;
+    color: black;
+}
+
+.about-us-section .box{
+    color:black;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.about-us-section .box i{
+    font-size: 42px;
+}
+
+.about-us-section .box h4 {
+ font-size: 14px;
+}
+
+.about-us-section .box p{
+    font-size: 22px;
+}
+
+.about-us-section .box::after,
+.about-us-section .box::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+
+.about-us-section .box::after{
+    left: -50px;
+    top: -50px;
+}
+
+.about-us-section .box::before{
+    right: -50px;
+    bottom: -50px;
+}
+
+.about-us-section .box:hover::after,
+.about-us-section .box:hover::before{
+    transform: scale(1.2);
+}
+
+/* About sonu */
+
+/* Services baslangic*/
+
+.services {
+    background-color: aqua;
+}
+
+.cards {
+    border: none;
+    outline: none;
+}
+
+.cards-body {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cards p{
+    color:black;
+}
+
+.circles {
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.cards:hover .circles{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/* Services sonu*/
+
+/* Team baslangic */
+
+.team-area{
+    padding-top: 5%;
+}
+.single-team{
+    background-color: #000;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.single-team:hover .social{
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+.img-area{
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.img-area img{
+    width: 100%;
+}
+.img-area:hover img{
+    transform: scale(1.2)
+}
+.img-area img{
+    transition: all 0.4s ease 0s;
+}
+@media (max-width: 768px){
+    .img-area img{
+        display: inline-block;
+    }
+}
+.img-area .social{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.img-area .social ul{
+    text-align: center;
+    position: relative;
+    top: 65px;
+}
+.img-area .social ul li a{
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.img-area .social ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid transparent;
+}
+.img-text{
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+}
+.img-text h4{
+    margin: 0 0 5px;
+    font-size: 30px;
+    font-family: bignoodletitling;
+    letter-spacing: 5px;
+}
+.img-text h5{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Team sonu */
+
+/* Portfolio baslangic */
+
+.picture {
+    height: 600px;
+}
+
+.picture2 {
+    height: 600px;
+}
+
+.picture3 {
+    height: 600px;
+}
+
+/* Portfolio sonu */
+

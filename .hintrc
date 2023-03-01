@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 107",
+    "not firefox <= 108",
+    "not ios_saf <= 14.8",
+    "not opera <= 92",
+    "not safari <= 14.1",
+    "not firefox <= 109",
+    "not safari <= 16.3",
+    "not and_chr <= 109",
+    "not chrome <= 109",
+    "not edge <= 109",
+    "not samsung <= 19",
+    "not ios_saf <= 16.3"
+  ],
+  "hints": {
+    "compat-api/html": "off",
+    "manifest-file-extension": "off"
+  }
+}
