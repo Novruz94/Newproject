@@ -8,10 +8,9 @@ import Services from './Pages/Services'
 import Portfolio from './Pages/Portfolio'
 import Team from './Pages/Team'
 import Blog from './Pages/Blog'
-import Dropdown from './Pages/Dropdown'
-import Action from './Pages/Action'
-import ActionAnother from './Pages/ActionAnother'
-import Something from './Pages/Something'
+import Blogone from './Pages/Blogone'
+import Blogtwo from './Pages/Blogtwo'
+import Blogthree from './Pages/Blogthree'
 import Contact from './Pages/Contact'
 import Navbar1 from './Components/Navbar1';
 import Footer from './Components/Footer';
@@ -22,16 +21,15 @@ function App() {
     <Navbar1/>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="haqqımızda"  element={<About/>} />
-      <Route path="xidmətlər" element={<Services />} />
-      <Route path="portfel" element={<Portfolio />} />
-      <Route path="komanda" element={<Team />} />
+      <Route path="about"  element={<About/>} />
+      <Route path="services" element={<Services />} />
+      <Route path="portfolio" element={<Portfolio />} />
+      <Route path="team" element={<Team />} />
       <Route path="blog" element={<Blog />} />
-      <Route path="açılanlar" element={<Dropdown />} />
-      <Route path="hərəkət/3.1" element={<Action />} />
-      <Route path="hərəkət/3.2" element={<ActionAnother />} />
-      <Route path="hərəkət/3.3" element={<Something />} />
-      <Route path="əlaqə" element={<Contact />} />
+      <Route path="blogone" element={<Blogone />} />
+      <Route path="blogtwo" element={<Blogtwo />} />
+      <Route path="blogthree" element={<Blogthree />} />
+      <Route path="contact" element={<Contact />} />
     </Routes>
     <Footer/>
     </>

@@ -11,7 +11,7 @@ function About() {
     <div className='about1'>
 
      
-       <div className="about-us-section bg-success">
+       <div className="about-us-section" style={{backgroundColor:'#F9F54B'}}>
       <div className="container">
         <div className="row">
           <div className="col-12 col-lg-6 mb-4 mb-lg-0" >
@@ -20,11 +20,11 @@ function About() {
             </div>
           </div>
           <div className="col-12 col-lg-6">
-            <h2 className='text-head'>
+            <h2 className='text-head' style={{color:'#205E61'}}>
             HAQQIMIZDA ƏTRAFLI BİLİN
             </h2>
             <div className="break-small mb-2"></div>
-            <p className='text-para'>
+            <p className='text-para' style={{color:'#205E61'}}>
               Lorem ipsum dolor sit, amet consectetur adipisicing 
               elit. Ab nulla, sapiente a explicabo harum, deleniti 
               quasi consequatur cumque sed, pariatur reiciendis.
@@ -40,22 +40,22 @@ function About() {
               <div className="col-12 col-md-4 mb-2 mb-md-0">
                 <div className="box">
                   <i className='mb-3'> <FaAirbnb/> </i>
-                  <h4 className='mb-0'>Ümumi müştərilər</h4>
-                  <p className='mb-0'>1000</p>
+                  <h4 className='mb-0' style={{color:'#205E61'}}>Ümumi müştərilər</h4>
+                  <p className='mb-0' style={{color:'#205E61'}}>1000</p>
                 </div>
               </div>
               <div className="col-12 col-md-4 mb-2 mb-md-0">
                 <div className="box">
                   <i className='mb-3'> <FaHistory/> </i>
-                  <h4 className='mb-0'>Layihələr həyata keçirilib</h4>
-                  <p className='mb-0'>900</p>
+                  <h4 className='mb-0' style={{color:'#205E61'}}>Layihələr həyata keçirilib</h4>
+                  <p className='mb-0' style={{color:'#205E61'}}>900</p>
                 </div>
               </div>
               <div className="col-12 col-md-4 mb-2 mb-md-0">
                 <div className="box">
                   <i className='mb-3'> <FaTv/> </i>
-                  <h4 className='mb-0'>İş illəri</h4>
-                  <p className='mb-0'>333</p>
+                  <h4 className='mb-0' style={{color:'#205E61'}}>İş illəri</h4>
+                  <p className='mb-0' style={{color:'#205E61'}}>333</p>
                 </div>
               </div>
             </div>

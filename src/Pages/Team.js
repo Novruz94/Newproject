@@ -30,8 +30,8 @@ function Team() {
             </div>
           </div>
           <div className="img-text">
-            <h4>John Doe</h4>
-            <h5>Front-End Developer</h5>
+            <h4 style={{color:'#205E61'}}>John Doe</h4>
+            <h5 style={{color:'#205E61'}}>Front-End Developer</h5>
           </div>
         </div>
       </div>
@@ -49,8 +49,8 @@ function Team() {
             </div>
           </div>
           <div className="img-text">
-            <h4>Dave Wood</h4>
-            <h5>Back-End Developer</h5>
+            <h4 style={{color:'#205E61'}}>Dave Wood</h4>
+            <h5 style={{color:'#205E61'}}>Back-End Developer</h5>
           </div>
         </div>
       </div>
@@ -68,8 +68,8 @@ function Team() {
             </div>
           </div>
           <div className="img-text">
-            <h4>Claire Chedd</h4>
-            <h5>Back-End Developer</h5>
+            <h4 style={{color:'#205E61'}}>Claire Chedd</h4>
+            <h5 style={{color:'#205E61'}}>Back-End Developer</h5>
           </div>
         </div>
       </div>
